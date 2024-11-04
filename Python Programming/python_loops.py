@@ -21,3 +21,10 @@ for index, star in enumerate(favorite_stars):
     print("My favorite Star is" ,star, "at index", index)
 
 print("End of the For loop with enumerate")
+
+#nested loop
+
+for i in range(1,11):
+    for j in range(1,11):
+        print(i * j, end = " ")
+    print()
