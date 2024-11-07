@@ -2,7 +2,7 @@
 
 So far, you've learned the different ways in which you can use import statements to import other Python files, modules and packages.   
 You have also seen the different ways in which you can import specific functions using different formats of import.   
-In this assignment you'll learn and practice how to use import to bring external code within the direct scope of the project.
+In this assignment you'll learn and practice how to use import to bring external code within the direct scope of the whole project.
 
  <br>
 
