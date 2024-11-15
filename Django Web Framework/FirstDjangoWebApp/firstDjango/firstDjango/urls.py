@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('firstApp.urls')), 
     path('admin/', admin.site.urls), 
     path('home/', include('secondApp.urls')),
+    path('django/', include('secondApp.urls')),
 ] 
