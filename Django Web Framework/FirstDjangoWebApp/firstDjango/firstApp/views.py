@@ -40,3 +40,9 @@ def parameters(request, name):
     description = items[name]
 
     return HttpResponse(f"<h1>{name}</h1>" + description)
+
+def queryStrings(request): 
+    # Get the parameters from the request
+    name = request.GET['name']
+    id = request.GET['id']
+    return HttpResponse("Name:{} ID:{}".format(name, id))
