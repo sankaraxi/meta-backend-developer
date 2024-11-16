@@ -26,3 +26,17 @@ def index(request):
     """
 
     return HttpResponse(message , content_type='text/html', charset='utf-8') 
+
+def parameters(request, name): 
+    # Get the parameters from the request
+    
+    items = {
+        'sankar': "CEO of the SanKrix Corporation",
+        'rakky': "CEO of the Rakky Corporation",
+        'prassu': "CEO of the Prassu Corporation",
+        'sid': "CEO of the Sid Corporation",
+    }
+
+    description = items[name]
+
+    return HttpResponse(f"<h1>{name}</h1>" + description)
